@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: rgb(30, 36, 44);
+    color: rgb(255, 255, 255);
+}
+.margin-right {
+    margin-right: 10px;
+}
+#header-section {
+    background-image: url("../img/GemBet_VCard_BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 438px;
+    border-bottom: 2px solid rgb(12, 214, 100);
+}
+#header-right a {
+    font-size: 21px;
+    margin: 0px 26px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+#header-right a:hover {
+    color: rgb(12, 214, 100);
+}
+#user {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 32px;
+}
+#logo {
+    width: 200px;
+}
+.user h3 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+.user p {
+    color: rgb(131, 148, 160);
+    margin: 0px;
+    font-size: 21px;
+}
+#header-section img,
+svg {
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+}
+.main-header p {
+    font-size: 23px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(131, 148, 160);
+    font-style: italic;
+}
+div#icon {
+    width: 70px;
+    height: 70px;
+    margin: auto auto 7px;
+    background: rgb(41, 49, 59);
+    display: table;
+    border-radius: 100%;
+}
+div#icon:hover i {
+    color: rgb(255, 255, 255) !important;
+}
+div#icon:hover {
+    background: rgb(12, 214, 100);
+}
+div.single-contact a {
+    text-decoration: none !important;
+    color: rgb(131, 148, 160) !important;
+}
+div#icon i {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+    color: rgb(12, 214, 100);
+}
+#common-clr {
+    color: rgb(12, 214, 100);
+}
+footer p {
+    color: rgb(131, 148, 160);
+    margin-bottom: 0px;
+}
+.contact-main {
+    padding: 32px 0px;
+}
+.modal-header {
+    padding: 0px;
+    border-bottom: 0px;
+}
+.modal-content {
+    padding: 1rem;
+    background-color: rgb(41, 49, 59);
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.close_button {
+    display: table;
+}
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em;
+    color: rgb(0, 0, 0);
+    background: rgb(30, 36, 44);
+    border: 0px;
+    border-radius: 1em;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.close_button i {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+.single-share {
+    height: 50px;
+    width: 50px;
+    background: #1e242c;
+    text-align: center;
+    display: table;
+    border-radius: 100%;
+}
+.single-share:hover{
+    background: #0cd664;
+    color: #FFFFFF;
+}
+.single-share:hover i{
+    color: #FFFFFF;
+}
+.single-share i {
+    font-size: 28px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #0cd664;
+}
+.copy-link {
+    margin: 0px 32px;
+    background: rgb(30, 36, 44);
+    border-radius: 31px;
+    padding: 7px;
+}
+.copy-link-area {
+    color: rgb(131, 148, 160);
+}
+.copy-link input[type="text"] {
+    background: rgb(30, 36, 44);
+    border: none;
+    outline: none;
+    width: 70%;
+    padding-left: 20px;
+}
+.copy-link button {
+    padding: 5px 26px;
+    background: rgb(12, 214, 100);
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    color: rgb(255, 255, 255);
+}
+.copy-link button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.modal-body a{
+    color: rgb(131, 148, 160);
+    text-decoration: none;
+}
+.modal-body .qr-code {
+    width: 200px;
+}
+#MainMenu a {
+    text-decoration: none;
+    display: block;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    margin: 15px 0px;
+}
+#MainMenu .modal-content {
+    background: none;
+    border: none;
+}
